@@ -4,7 +4,7 @@ Online job boards have become the preferred method of applying for positions in 
 
 This project is aimed at providing a means for job seekers to find out what salary they might expect based on certain factors like; Work Experience, Degree, Major, Job Type, Industry and distance from the city.
 
-This project was carried out with an assumption that the companies in the dataset are leasing companies in their respective industries e.g BP, SHELL, CHEVRON, MERCEDES BENZ, TESLA, BMW, KPMG, EY, PWC, GOOGLE, FACEBOOK, APPLE etc. In this notebook, we will go through how i tackled this problem. We will also see Data Visualizations, Data wrangling, Modeling and Model Deployment.
+This project was carried out with an assumption that the companies in the dataset are leading companies in their respective industries e.g BP, SHELL, CHEVRON, MERCEDES BENZ, TESLA, BMW, KPMG, EY, PWC, GOOGLE, FACEBOOK, APPLE etc. In this notebook, we will go through how i tackled this problem. We will also see Data Visualizations, Data wrangling, Modeling and Model Deployment.
 
 
 ### Libaries Used:
