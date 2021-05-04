@@ -1,4 +1,4 @@
-# salary_prediction
+# Salary Prediction
 
 Online job boards have become the preferred method of applying for positions in comoanies, however most of the openings listed on these job boards have no salary benefits details and this has troubled job seekers who are tired of going through the stress of applying for jobs, attending the interview only to realise that the remuneration is below what they expected.
 
