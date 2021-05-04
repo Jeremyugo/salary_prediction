@@ -16,3 +16,5 @@ This project was carried out with an assumption that the companies in the datase
   * plotly
   * joblib
   * streamlit
+
+Link to the app deployed on Heroku: https://salary-prediction-2.herokuapp.com/
