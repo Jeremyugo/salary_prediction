@@ -5,11 +5,11 @@ from sk_class import DataFrameSelector
 from PIL import Image
 from joblib import load
 
-data = load('C://Users//jeremiah.chinyelugo.HEOSL//Desktop//salary_prediction.txt')
+data = load('salary_prediction.txt')
 
 
 st.title("Salary Prediction")
-img = Image.open('C://Users//jeremiah.chinyelugo.HEOSL//Desktop//salary.jpeg')
+img = Image.open('salary.jpeg')
 st.image(img)
 
 expander = st.sidebar.beta_expander("Assumptions used when training the Data")
