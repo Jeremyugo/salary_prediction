@@ -42,7 +42,7 @@ if title == 'JANITOR':
     major = st.selectbox("Major", ["NONE"])
     industry = st.selectbox("Industry", ('AUTO', 'EDUCATION', 'SERVICE', 'HEALTH', 'WEB', 'FINANCE', 'OIL'))
     experience = st.slider("Experience (years)", 0, 24)
-    miles = st.slider("Distance of Job Location from Nearest Major City", 0, 99)
+    miles = st.slider("Distance of Job Location from Nearest Major City (miles)", 0, 99)
     
 elif title == 'JUNIOR':
     degree = st.selectbox("Degree", ("NONE","HIGH_SCHOOL", "BACHELORS", "MASTERS", "DOCTORAL"))
@@ -50,13 +50,13 @@ elif title == 'JUNIOR':
         major = st.selectbox("Major", ["NONE"])
         industry = st.selectbox("Industry", ('AUTO', 'EDUCATION', 'SERVICE', 'HEALTH', 'WEB', 'FINANCE', 'OIL'))
         experience = st.slider("Experience (years)", 0, 24)
-        miles = st.slider("Distance of Job Location from Nearest Major City", 0, 99)
+        miles = st.slider("Distance of Job Location from Nearest Major City (miles)", 0, 99)
     elif degree in ["BACHELORS", "MASTERS", "DOCTORAL"]:
         major = st.selectbox("Major", ('LITERATURE', 'CHEMISTRY', 'PHYSICS', 'BIOLOGY', 'COMPSCI',
           'ENGINEERING', 'BUSINESS', 'MATH'))
         industry = st.selectbox("Industry", ('AUTO', 'EDUCATION', 'SERVICE', 'HEALTH', 'WEB', 'FINANCE', 'OIL'))
         experience = st.slider("Experience (years)", 0, 24)
-        miles = st.slider("Distance of Job Location from Nearest Major City", 0, 99)
+        miles = st.slider("Distance of Job Location from Nearest Major City (miles)", 0, 99)
     
     
     
@@ -67,13 +67,13 @@ elif title in ['SENIOR','MANAGER']:
           'ENGINEERING', 'BUSINESS', 'MATH'))
         industry = st.selectbox("Industry", ('AUTO', 'EDUCATION', 'SERVICE', 'HEALTH', 'WEB', 'FINANCE', 'OIL'))
         experience = st.slider("Experience (years)", 5, 24)
-        miles = st.slider("Distance of Job Location from Nearest Major City", 0, 99)
+        miles = st.slider("Distance of Job Location from Nearest Major City (miles)", 0, 99)
     elif degree in ["MASTERS", "DOCTORAL"]:
         major = st.selectbox("Major", ('LITERATURE', 'CHEMISTRY', 'PHYSICS', 'BIOLOGY', 'COMPSCI',
           'ENGINEERING', 'BUSINESS', 'MATH'))
         industry = st.selectbox("Industry", ('AUTO', 'EDUCATION', 'SERVICE', 'HEALTH', 'WEB', 'FINANCE', 'OIL'))
         experience = st.slider("Experience (years)", 3, 24)
-        miles = st.slider("Distance of Job Location from Nearest Major City", 0, 99)
+        miles = st.slider("Distance of Job Location from Nearest Major City (miles)", 0, 99)
         
 elif title in ['VICE_PRESIDENT','CFO', 'CEO', 'CTO']:
     degree = st.selectbox("Degree", ("BACHELORS", "MASTERS", "DOCTORAL"))
@@ -82,13 +82,13 @@ elif title in ['VICE_PRESIDENT','CFO', 'CEO', 'CTO']:
           'ENGINEERING', 'BUSINESS', 'MATH'))
         industry = st.selectbox("Industry", ('AUTO', 'EDUCATION', 'SERVICE', 'HEALTH', 'WEB', 'FINANCE', 'OIL'))
         experience = st.slider("Experience (years)", 10, 24)
-        miles = st.slider("Distance of Job Location from Nearest Major City", 0, 99)
+        miles = st.slider("Distance of Job Location from Nearest Major City (miles)", 0, 99)
     elif degree in ["MASTERS", "DOCTORAL"]:
         major = st.selectbox("Major", ('LITERATURE', 'CHEMISTRY', 'PHYSICS', 'BIOLOGY', 'COMPSCI',
           'ENGINEERING', 'BUSINESS', 'MATH'))
         industry = st.selectbox("Industry", ('AUTO', 'EDUCATION', 'SERVICE', 'HEALTH', 'WEB', 'FINANCE', 'OIL'))
         experience = st.slider("Experience (years)", 5, 24)
-        miles = st.slider("Distance of Job Location from Nearest Major City", 0, 99)
+        miles = st.slider("Distance of Job Location from Nearest Major City (miles)", 0, 99)
 
 
 ok = st.button("Predict Salary")
