@@ -17,4 +17,4 @@ This project was carried out with an assumption that the companies in the datase
   * joblib
   * streamlit
 
-Link to the app deployed on Heroku: https://salary-prediction-2.herokuapp.com/
+Link to the app: https://jeremyugo-salary-prediction-app-an2gpv.streamlit.app/
