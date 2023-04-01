@@ -18,3 +18,7 @@ This project was carried out with an assumption that the companies in the datase
   * streamlit
 
 Link to the app: https://jeremyugo-salary-prediction-app-an2gpv.streamlit.app/
+
+NOTE: To conserve resources, app might not be accessible at times to due down time
+
+![image](https://user-images.githubusercontent.com/36512525/229263234-af93a2e1-df91-4ac6-9477-bc712a58b550.png)
